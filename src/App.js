@@ -1,11 +1,11 @@
 
-import './App.css';
+import ContactUs from './ContactUs';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>HELLO🎅✋</h1>
+        <ContactUs />
       </header>
     </div>
   );
