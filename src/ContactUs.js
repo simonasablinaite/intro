@@ -6,7 +6,7 @@ import './pageStyle.css';
 const ContactUs = () => {
    return (
       <main className='container'>
-         <ShopContainer />
+         <ShopContainer mainTitle='Find Us' />
          <MapContainer />
       </main>
    )
