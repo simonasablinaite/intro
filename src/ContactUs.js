@@ -5,12 +5,10 @@ import './pageStyle.css';
 
 const ContactUs = () => {
    return (
-      <>
-         <main className='container'>
-            <ShopContainer />
-            <MapContainer />
-         </main>
-      </>
+      <main className='container'>
+         <ShopContainer />
+         <MapContainer />
+      </main>
    )
 }
 
