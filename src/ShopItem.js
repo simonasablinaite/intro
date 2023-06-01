@@ -1,14 +1,15 @@
 import React from 'react'
 
-const ShopItem = () => {
+
+const ShopItem = ({ title, phone, email, address }) => {
    return (
-      <div class="shop-card">
-         <div class="shop-content">
-            <h2>Parduotuvė 1</h2>
-            <div class="references">
-               <a href="+3706666666"><span class="contacts">Phone:</span>+3706666666</a>
-               <a href="shop1@parduotuve.lt"><span class="contacts">Email:</span>shop1@parduotuve.lt</a>
-               <a href="/#"><span class="contacts">Address:</span>Rotušės aikštė 1, Kaunas</a>
+      <div className="shop-card">
+         <div className="shop-content">
+            <h2>{title}</h2>
+            <div className="references">
+               <a href={{ phone }}><span className="contacts">Phone:</span>+3706666666</a>
+               <a href={{ email }}><span className="contacts">Email:</span>shop1@parduotuve.lt</a>
+               <a href={{ address }}><span className="contacts">Address:</span>Rotušės aikštė 1, Kaunas</a>
             </div>
          </div>
       </div>

@@ -140,6 +140,7 @@
     width: calc(100% - 30px);
     display: flex;
     flex-direction: row;
+    gap: 30px;
   }
 
   .shops-container {
